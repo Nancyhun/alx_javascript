@@ -1,6 +1,4 @@
-function add(num1, num2){
-    const addend = num1 + num2;
-    return addend;
-}
+exports.add = function(a , b){
+    return a + b;
+};
 
-console.log(add(3, 5));
